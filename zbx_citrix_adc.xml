@@ -801,10 +801,10 @@
                             </valuemap>
                             <trigger_prototypes>
                                 <trigger_prototype>
-                                    <expression>{last()}&lt;&gt;7</expression>
+                                    <expression>{last()}&lt;4</expression>
                                     <name>vServer {#SNMPVALUE} state: {ITEM.VALUE}</name>
                                     <priority>HIGH</priority>
-                                    <description>The state of the vserver is not &quot;up&quot;.</description>
+                                    <description>The state of the vserver is not &quot;up&quot; or &quot;out of service&quot;.</description>
                                 </trigger_prototype>
                             </trigger_prototypes>
                         </item_prototype>
